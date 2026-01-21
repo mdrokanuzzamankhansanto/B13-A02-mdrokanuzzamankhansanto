@@ -1,287 +1,481 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechWave - Your daily dose of tech insights</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/Santo Fb banner.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Top Navigation -->
     <nav class="top-nav">
-        <div class="nav-container">
-            <img src="assets/images/techwave-logo.svg" alt="TechWave" class="logo">
-            <div class="nav-links">
-                <a href="#" class="nav-link">About</a>
-                <a href="#" class="nav-link">Episodes</a>
-                <a href="#" class="nav-link">Host</a>
-            </div>
-            <button class="btn-primary">
-                <span>Subscribe</span>
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7.5 15L12.5 10L7.5 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </button>
+      <div class="nav-container">
+        <img
+          src="assets/images/techwave-logo.svg"
+          alt="TechWave"
+          class="logo"
+        />
+        <div class="nav-links">
+          <a href="#" class="nav-link">About</a>
+          <a href="#" class="nav-link">Episodes</a>
+          <a href="#" class="nav-link">Host</a>
         </div>
+        <button class="btn-primary">
+          <span>Subscribe</span>
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7.5 15L12.5 10L7.5 5"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
     </nav>
 
     <!-- Header Section -->
     <header class="header-section">
-        <div class="header-background">
-            <img src="assets/images/header-bg.png" alt="Background">
+      <div class="header-background">
+        <img src="assets/images/header-bg.png" alt="Background" />
+      </div>
+      <div class="header-content">
+        <div class="microphone-container">
+          <img
+            src="assets/images/microphone-circle.svg"
+            alt="Microphone Circle"
+            class="microphone-circle"
+          />
+          <img
+            src="assets/images/microphone-icon.svg"
+            alt="Microphone"
+            class="microphone-icon"
+          />
+          <div class="new-badge">
+            <span>NEW</span>
+          </div>
         </div>
-        <div class="header-content">
-            <div class="microphone-container">
-                <img src="assets/images/microphone-circle.svg" alt="Microphone Circle" class="microphone-circle">
-                <img src="assets/images/microphone-icon.svg" alt="Microphone" class="microphone-icon">
-                <div class="new-badge">
-                    <span>NEW</span>
-                </div>
-            </div>
-            <div class="header-text">
-                <h1 class="header-title">TechWave</h1>
-                <p class="header-subtitle">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-                <div class="header-buttons">
-                    <button class="btn-primary">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm4.573 5.354a.625.625 0 01.827.827l-7.5 7.5a.625.625 0 01-.884-.884l7.5-7.5z" fill="white"/>
-                            <circle cx="10" cy="10" r="9" fill="white"/>
-                            <path d="M8 6l6 4-6 4V6z" fill="#000"/>
-                        </svg>
-                        <span>Listen on Spotify</span>
-                    </button>
-                    <button class="btn-outline">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3.333 5h13.334v1.667H3.333V5zm0 2.5v6.666h13.334V7.5H3.333zm0 8.333h13.334V17.5H3.333v-1.667z" fill="#00FF88"/>
-                            <path d="M5 10l3.333 2.5V7.5L5 10z" fill="#00FF88"/>
-                        </svg>
-                        <span>Subscribe</span>
-                    </button>
-                </div>
-            </div>
+        <div class="header-text">
+          <h1 class="header-title">TechWave</h1>
+          <p class="header-subtitle">
+            Your daily dose of tech insights, productivity hacks, and personal
+            growth
+          </p>
+          <div class="header-buttons">
+            <button class="btn-primary">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm4.573 5.354a.625.625 0 01.827.827l-7.5 7.5a.625.625 0 01-.884-.884l7.5-7.5z"
+                  fill="white"
+                />
+                <circle cx="10" cy="10" r="9" fill="white" />
+                <path d="M8 6l6 4-6 4V6z" fill="#000" />
+              </svg>
+              <span>Listen on Spotify</span>
+            </button>
+            <button class="btn-outline">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.333 5h13.334v1.667H3.333V5zm0 2.5v6.666h13.334V7.5H3.333zm0 8.333h13.334V17.5H3.333v-1.667z"
+                  fill="#00FF88"
+                />
+                <path d="M5 10l3.333 2.5V7.5L5 10z" fill="#00FF88" />
+              </svg>
+              <span>Subscribe</span>
+            </button>
+          </div>
         </div>
+      </div>
     </header>
 
     <!-- About the Podcast Section -->
     <section class="about-section">
-        <div class="section-container">
-            <h2 class="section-title">About the Podcast</h2>
-            <p class="section-description">
-                TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
-                We break down complex topics into digestible insights, explore productivity strategies that actually work,
-                and share stories of personal growth from industry leaders.<br><br>
-                Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
-            </p>
-            <div class="divider"></div>
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <h3 class="stat-number">150K+</h3>
-                    <p class="stat-label">Monthly Listeners</p>
-                </div>
-                <div class="stat-item">
-                    <h3 class="stat-number">200+</h3>
-                    <p class="stat-label">Episodes Published</p>
-                </div>
-                <div class="stat-item">
-                    <h3 class="stat-number">4.9★</h3>
-                    <p class="stat-label">Average Rating</p>
-                </div>
-                <div class="stat-item">
-                    <h3 class="stat-number">50+</h3>
-                    <p class="stat-label">Industry Experts</p>
-                </div>
-            </div>
+      <div class="section-container">
+        <h2 class="section-title">About the Podcast</h2>
+        <p class="section-description">
+          TechWave is your go-to podcast for staying ahead in the fast-paced
+          world of technology. We break down complex topics into digestible
+          insights, explore productivity strategies that actually work, and
+          share stories of personal growth from industry leaders.<br /><br />
+          Join thousands of young professionals and tech enthusiasts who start
+          their day with TechWave.
+        </p>
+        <div class="divider"></div>
+        <div class="stats-grid">
+          <div class="stat-item">
+            <h3 class="stat-number">150K+</h3>
+            <p class="stat-label">Monthly Listeners</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="stat-number">200+</h3>
+            <p class="stat-label">Episodes Published</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="stat-number">4.9★</h3>
+            <p class="stat-label">Average Rating</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="stat-number">50+</h3>
+            <p class="stat-label">Industry Experts</p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Why Choose TechWave Section -->
     <section class="features-section">
-        <div class="section-container">
-            <h2 class="section-title">Why Choose TechWave</h2>
-            <div class="features-grid">
-                <div class="feature-card large">
-                    <img src="assets/images/headphones-icon.svg" alt="Premium Audio" class="feature-icon">
-                    <h3 class="feature-title">Premium Audio Quality</h3>
-                    <p class="feature-description">
-                        Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering.
-                        Every episode is mastered for optimal listening across all devices and platforms.
-                    </p>
-                </div>
-                <div class="feature-column">
-                    <div class="feature-card">
-                        <img src="assets/images/phone-icon.svg" alt="Mobile Friendly" class="feature-icon">
-                        <h3 class="feature-title">Mobile Friendly</h3>
-                        <p class="feature-description">
-                            Listen on the go with seamless mobile experience and offline downloads.
-                        </p>
-                    </div>
-                    <div class="feature-card">
-                        <img src="assets/images/globe-icon.svg" alt="Global Community" class="feature-icon">
-                        <h3 class="feature-title">Global Community</h3>
-                        <p class="feature-description">
-                            Connect with tech enthusiasts from over 120 countries worldwide.
-                        </p>
-                    </div>
-                </div>
-                <div class="feature-column">
-                    <div class="feature-card">
-                        <img src="assets/images/zap-icon.svg" alt="Exclusive Interviews" class="feature-icon">
-                        <h3 class="feature-title">Exclusive Interviews</h3>
-                        <p class="feature-description">
-                            Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures
-                            exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success
-                            strategies.
-                        </p>
-                    </div>
-                    <div class="feature-card">
-                        <img src="assets/images/book-icon.svg" alt="Rich Resources" class="feature-icon">
-                        <h3 class="feature-title">Rich Resources</h3>
-                        <p class="feature-description">
-                            Access show notes, transcripts, and additional learning materials for every episode.
-                        </p>
-                    </div>
-                </div>
+      <div class="section-container">
+        <h2 class="section-title">Why Choose TechWave</h2>
+        <div class="features-grid">
+          <div class="feature-card large">
+            <img
+              src="assets/images/headphones-icon.svg"
+              alt="Premium Audio"
+              class="feature-icon"
+            />
+            <h3 class="feature-title">Premium Audio Quality</h3>
+            <p class="feature-description">
+              Experience crystal-clear sound with professional-grade recording
+              equipment and expert audio engineering. Every episode is mastered
+              for optimal listening across all devices and platforms.
+            </p>
+          </div>
+          <div class="feature-column">
+            <div class="feature-card">
+              <img
+                src="assets/images/phone-icon.svg"
+                alt="Mobile Friendly"
+                class="feature-icon"
+              />
+              <h3 class="feature-title">Mobile Friendly</h3>
+              <p class="feature-description">
+                Listen on the go with seamless mobile experience and offline
+                downloads.
+              </p>
             </div>
+            <div class="feature-card">
+              <img
+                src="assets/images/globe-icon.svg"
+                alt="Global Community"
+                class="feature-icon"
+              />
+              <h3 class="feature-title">Global Community</h3>
+              <p class="feature-description">
+                Connect with tech enthusiasts from over 120 countries worldwide.
+              </p>
+            </div>
+          </div>
+          <div class="feature-column">
+            <div class="feature-card">
+              <img
+                src="assets/images/zap-icon.svg"
+                alt="Exclusive Interviews"
+                class="feature-icon"
+              />
+              <h3 class="feature-title">Exclusive Interviews</h3>
+              <p class="feature-description">
+                Get unprecedented access to industry titans, startup founders,
+                and tech visionaries. Our host secures exclusive conversations
+                you won't find anywhere else, diving deep into their journeys,
+                failures, and success strategies.
+              </p>
+            </div>
+            <div class="feature-card">
+              <img
+                src="assets/images/book-icon.svg"
+                alt="Rich Resources"
+                class="feature-icon"
+              />
+              <h3 class="feature-title">Rich Resources</h3>
+              <p class="feature-description">
+                Access show notes, transcripts, and additional learning
+                materials for every episode.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Featured Episodes Section -->
     <section class="episodes-section">
-        <div class="section-container">
-            <h2 class="section-title">Featured Episodes</h2>
-            <div class="episodes-grid">
-                <div class="episode-card">
-                    <div class="episode-image">
-                        <img src="assets/images/episode1-image-60fc49.png" alt="Episode 1">
-                        <div class="play-button-overlay">
-                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="30" cy="30" r="30" fill="white" fill-opacity="0.2"/>
-                                <path d="M23 20l14 10-14 10V20z" fill="white"/>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="episode-content">
-                        <h3 class="episode-title">The Future of AI in Everyday Life</h3>
-                        <p class="episode-description">
-                            Exploring how artificial intelligence is transforming our daily routines and what to expect
-                            in the next decade.
-                        </p>
-                        <div class="episode-meta">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 2.5C6.41 2.5 3.5 5.41 3.5 9c0 3.59 2.91 6.5 6.5 6.5s6.5-2.91 6.5-6.5S13.59 2.5 10 2.5zm0 11.25c-2.62 0-4.75-2.13-4.75-4.75S7.38 4.25 10 4.25s4.75 2.13 4.75 4.75S12.62 13.75 10 13.75zm.625-7.5h-2.5v3.125l2.188 1.313.625-1.063V6.25z" fill="#00FF88"/>
-                            </svg>
-                            <span>42 min</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="episode-card">
-                    <div class="episode-image">
-                        <img src="assets/images/episode2-image-33b8d4.png" alt="Episode 2">
-                        <div class="play-button-overlay">
-                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="30" cy="30" r="30" fill="white" fill-opacity="0.2"/>
-                                <path d="M23 20l14 10-14 10V20z" fill="white"/>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="episode-content">
-                        <h3 class="episode-title">Building Better Habits for Remote Work</h3>
-                        <p class="episode-description">
-                            Practical strategies for staying productive and maintaining work-life balance in a remote
-                            environment.
-                        </p>
-                        <div class="episode-meta">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 2.5C6.41 2.5 3.5 5.41 3.5 9c0 3.59 2.91 6.5 6.5 6.5s6.5-2.91 6.5-6.5S13.59 2.5 10 2.5zm0 11.25c-2.62 0-4.75-2.13-4.75-4.75S7.38 4.25 10 4.25s4.75 2.13 4.75 4.75S12.62 13.75 10 13.75zm.625-7.5h-2.5v3.125l2.188 1.313.625-1.063V6.25z" fill="#00FF88"/>
-                            </svg>
-                            <span>35 min</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="episode-card">
-                    <div class="episode-image">
-                        <img src="assets/images/episode3-image.png" alt="Episode 3">
-                        <div class="play-button-overlay">
-                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="30" cy="30" r="30" fill="white" fill-opacity="0.2"/>
-                                <path d="M23 20l14 10-14 10V20z" fill="white"/>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="episode-content">
-                        <h3 class="episode-title">Career Growth in Tech: A Roadmap</h3>
-                        <p class="episode-description">
-                            Expert advice on navigating your tech career from junior developer to senior leadership roles.
-                        </p>
-                        <div class="episode-meta">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10 2.5C6.41 2.5 3.5 5.41 3.5 9c0 3.59 2.91 6.5 6.5 6.5s6.5-2.91 6.5-6.5S13.59 2.5 10 2.5zm0 11.25c-2.62 0-4.75-2.13-4.75-4.75S7.38 4.25 10 4.25s4.75 2.13 4.75 4.75S12.62 13.75 10 13.75zm.625-7.5h-2.5v3.125l2.188 1.313.625-1.063V6.25z" fill="#00FF88"/>
-                            </svg>
-                            <span>51 min</span>
-                        </div>
-                    </div>
-                </div>
+      <div class="section-container">
+        <h2 class="section-title">Featured Episodes</h2>
+        <div class="episodes-grid">
+          <div class="episode-card">
+            <div class="episode-image">
+              <img
+                src="assets/images/episode1-image-60fc49.png"
+                alt="Episode 1"
+              />
+              <div class="play-button-overlay">
+                <svg
+                  width="60"
+                  height="60"
+                  viewBox="0 0 60 60"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="30"
+                    cy="30"
+                    r="30"
+                    fill="white"
+                    fill-opacity="0.2"
+                  />
+                  <path d="M23 20l14 10-14 10V20z" fill="white" />
+                </svg>
+              </div>
             </div>
-
-            <!-- Meet the Host Section -->
-            <div class="host-section">
-                <h2 class="section-title">Meet the Host</h2>
-                <div class="host-card">
-                    <div class="host-image">
-                        <img src="assets/images/host-image-418b60.png" alt="Alex Kumar">
-                    </div>
-                    <div class="host-content">
-                        <h3 class="host-name">Alex Kumar</h3>
-                        <p class="host-description">
-                            Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech
-                            industry for over 10 years, working with startups and Fortune 500 companies. Through
-                            TechWave, Alex shares insights from industry leaders and practical advice for anyone
-                            looking to grow in tech.
-                        </p>
-                    </div>
-                </div>
+            <div class="episode-content">
+              <h3 class="episode-title">The Future of AI in Everyday Life</h3>
+              <p class="episode-description">
+                Exploring how artificial intelligence is transforming our daily
+                routines and what to expect in the next decade.
+              </p>
+              <div class="episode-meta">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 2.5C6.41 2.5 3.5 5.41 3.5 9c0 3.59 2.91 6.5 6.5 6.5s6.5-2.91 6.5-6.5S13.59 2.5 10 2.5zm0 11.25c-2.62 0-4.75-2.13-4.75-4.75S7.38 4.25 10 4.25s4.75 2.13 4.75 4.75S12.62 13.75 10 13.75zm.625-7.5h-2.5v3.125l2.188 1.313.625-1.063V6.25z"
+                    fill="#00FF88"
+                  />
+                </svg>
+                <span>42 min</span>
+              </div>
             </div>
+          </div>
+          <div class="episode-card">
+            <div class="episode-image">
+              <img
+                src="assets/images/episode2-image-33b8d4.png"
+                alt="Episode 2"
+              />
+              <div class="play-button-overlay">
+                <svg
+                  width="60"
+                  height="60"
+                  viewBox="0 0 60 60"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="30"
+                    cy="30"
+                    r="30"
+                    fill="white"
+                    fill-opacity="0.2"
+                  />
+                  <path d="M23 20l14 10-14 10V20z" fill="white" />
+                </svg>
+              </div>
+            </div>
+            <div class="episode-content">
+              <h3 class="episode-title">
+                Building Better Habits for Remote Work
+              </h3>
+              <p class="episode-description">
+                Practical strategies for staying productive and maintaining
+                work-life balance in a remote environment.
+              </p>
+              <div class="episode-meta">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 2.5C6.41 2.5 3.5 5.41 3.5 9c0 3.59 2.91 6.5 6.5 6.5s6.5-2.91 6.5-6.5S13.59 2.5 10 2.5zm0 11.25c-2.62 0-4.75-2.13-4.75-4.75S7.38 4.25 10 4.25s4.75 2.13 4.75 4.75S12.62 13.75 10 13.75zm.625-7.5h-2.5v3.125l2.188 1.313.625-1.063V6.25z"
+                    fill="#00FF88"
+                  />
+                </svg>
+                <span>35 min</span>
+              </div>
+            </div>
+          </div>
+          <div class="episode-card">
+            <div class="episode-image">
+              <img src="assets/images/episode3-image.png" alt="Episode 3" />
+              <div class="play-button-overlay">
+                <svg
+                  width="60"
+                  height="60"
+                  viewBox="0 0 60 60"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="30"
+                    cy="30"
+                    r="30"
+                    fill="white"
+                    fill-opacity="0.2"
+                  />
+                  <path d="M23 20l14 10-14 10V20z" fill="white" />
+                </svg>
+              </div>
+            </div>
+            <div class="episode-content">
+              <h3 class="episode-title">Career Growth in Tech: A Roadmap</h3>
+              <p class="episode-description">
+                Expert advice on navigating your tech career from junior
+                developer to senior leadership roles.
+              </p>
+              <div class="episode-meta">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 2.5C6.41 2.5 3.5 5.41 3.5 9c0 3.59 2.91 6.5 6.5 6.5s6.5-2.91 6.5-6.5S13.59 2.5 10 2.5zm0 11.25c-2.62 0-4.75-2.13-4.75-4.75S7.38 4.25 10 4.25s4.75 2.13 4.75 4.75S12.62 13.75 10 13.75zm.625-7.5h-2.5v3.125l2.188 1.313.625-1.063V6.25z"
+                    fill="#00FF88"
+                  />
+                </svg>
+                <span>51 min</span>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <!-- Meet the Host Section -->
+        <div class="host-section">
+          <h2 class="section-title">Meet the Host</h2>
+          <div class="host-card">
+            <div class="host-image">
+              <img src="assets/images/host-image-418b60.png" alt="Alex Kumar" />
+            </div>
+            <div class="host-content">
+              <h3 class="host-name">Alex Kumar</h3>
+              <p class="host-description">
+                Tech entrepreneur, productivity expert, and lifelong learner.
+                Alex has been in the tech industry for over 10 years, working
+                with startups and Fortune 500 companies. Through TechWave, Alex
+                shares insights from industry leaders and practical advice for
+                anyone looking to grow in tech.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="footer-background">
-            <img src="assets/images/footer-bg.png" alt="Footer Background">
+      <div class="footer-background">
+        <img src="assets/images/footer-bg.png" alt="Footer Background" />
+      </div>
+      <div class="footer-content">
+        <img
+          src="assets/images/techwave-logo.svg"
+          alt="TechWave"
+          class="footer-logo"
+        />
+        <div class="social-links">
+          <a href="#" class="social-link">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.568 8.16c-.169 1.858-.896 6.728-.896 6.728s-.537 3.328-2.112 4.096c-1.576.768-3.584.512-4.096-.512-.512-1.024-.384-2.304-.384-2.304s2.688-.512 3.712-1.792c.384-.896.256-2.56.256-2.56s-4.096 1.152-5.76 1.664c-.896.256-1.792 0-2.304-.768-.512-.768-.256-1.92.256-2.432.512-.512 3.84-3.584 7.168-5.376 1.28-.768 2.304-.512 2.816-.256.512.256 1.152 1.024.512 2.048z"
+                fill="white"
+                fill-opacity="0.6"
+              />
+            </svg>
+            <span>Spotify</span>
+          </a>
+          <a href="#" class="social-link">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm6.4 12c0 3.584-2.816 6.4-6.4 6.4S5.6 15.584 5.6 12 8.416 5.6 12 5.6 18.4 8.416 18.4 12zm-4.8-3.2h-3.2v6.4h3.2V8.8z"
+                fill="white"
+                fill-opacity="0.6"
+              />
+            </svg>
+            <span>Apple Podcasts</span>
+          </a>
+          <a href="#" class="social-link">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                fill="white"
+                fill-opacity="0.6"
+              />
+            </svg>
+            <span>YouTube</span>
+          </a>
+          <a href="#" class="social-link">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                fill="white"
+                fill-opacity="0.6"
+              />
+            </svg>
+            <span>Twitter</span>
+          </a>
         </div>
-        <div class="footer-content">
-            <img src="assets/images/techwave-logo.svg" alt="TechWave" class="footer-logo">
-            <div class="social-links">
-                <a href="#" class="social-link">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.568 8.16c-.169 1.858-.896 6.728-.896 6.728s-.537 3.328-2.112 4.096c-1.576.768-3.584.512-4.096-.512-.512-1.024-.384-2.304-.384-2.304s2.688-.512 3.712-1.792c.384-.896.256-2.56.256-2.56s-4.096 1.152-5.76 1.664c-.896.256-1.792 0-2.304-.768-.512-.768-.256-1.92.256-2.432.512-.512 3.84-3.584 7.168-5.376 1.28-.768 2.304-.512 2.816-.256.512.256 1.152 1.024.512 2.048z" fill="white" fill-opacity="0.6"/>
-                    </svg>
-                    <span>Spotify</span>
-                </a>
-                <a href="#" class="social-link">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm6.4 12c0 3.584-2.816 6.4-6.4 6.4S5.6 15.584 5.6 12 8.416 5.6 12 5.6 18.4 8.416 18.4 12zm-4.8-3.2h-3.2v6.4h3.2V8.8z" fill="white" fill-opacity="0.6"/>
-                    </svg>
-                    <span>Apple Podcasts</span>
-                </a>
-                <a href="#" class="social-link">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="white" fill-opacity="0.6"/>
-                    </svg>
-                    <span>YouTube</span>
-                </a>
-                <a href="#" class="social-link">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" fill="white" fill-opacity="0.6"/>
-                    </svg>
-                    <span>Twitter</span>
-                </a>
-            </div>
-            <p class="footer-copyright">© 2026 TechWave Podcast. All rights reserved.</p>
-        </div>
+        <p class="footer-copyright">
+          © 2026 TechWave Podcast. All rights reserved.
+        </p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
